@@ -19,6 +19,6 @@ module.exports = {
             process.env.MONGOHQ_URL ||
             process.env.OPENSHIFT_MONGODB_DB_URL +
             process.env.OPENSHIFT_APP_NAME ||
-            'mongodb://localhost/bbcworkspace'
+            'mongodb://bbc:bbc@ds129733.mlab.com:29733/memberslist'
   }
 };

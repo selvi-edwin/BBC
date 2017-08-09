@@ -7,5 +7,5 @@ angular.module('bbcWorkspaceApp')
         url: '/',
         templateUrl: 'app/main/main.html',
         controller: 'MainCtrl'
-      });
+      })
   });
